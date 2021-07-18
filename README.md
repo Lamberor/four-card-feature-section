@@ -19,7 +19,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ## Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/flexbox-sass-0oATaWS7O)
 - Live Site URL: [Github Pages](https://lamberor.github.io/four-card-feature-section/)
 
 ## Built with
