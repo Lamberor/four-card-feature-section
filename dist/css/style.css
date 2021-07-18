@@ -31,9 +31,11 @@ header h1 {
 }
 header h1 span {
   font-weight: 600;
+  color: #4c4e61;
 }
 header p {
   font-weight: 200;
+  color: #a3a5ae;
 }
 
 /* ======
@@ -57,11 +59,13 @@ header p {
 }
 .container div[class^=card] h3 {
   margin-bottom: 12px;
+  color: #4c4e61;
 }
 .container div[class^=card] p {
   font-weight: 200;
   font-size: 14px;
   line-height: 1.8;
+  color: #a3a5ae;
 }
 .container div[class^=card] img {
   margin: 40px 10px 20px 200px;
