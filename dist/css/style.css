@@ -58,8 +58,8 @@ header p {
   border-radius: 5px;
 }
 .container div[class^=card] h3 {
-  margin-bottom: 12px;
   color: #4c4e61;
+  margin-bottom: 12px;
 }
 .container div[class^=card] p {
   font-weight: 200;
