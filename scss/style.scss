@@ -1,0 +1,133 @@
+/* =======
+  variables
+  ====== */
+
+$red: hsl(0, 78%, 62%);
+$cyan: hsl(180, 62%, 55%);
+$orange: hsl(34, 97%, 64%);
+$blue: hsl(212, 86%, 64%);
+$dark-blue: hsl(234, 12%, 34%);
+$grayish-blue: hsl(229, 6%, 66%);
+$light-gray: hsl(0, 0%, 98%);
+
+/* ======
+  global 
+  ====== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: $light-gray;
+}
+
+/* ======
+  header
+  ====== */
+
+header {
+  max-width: 500px;
+  text-align: center;
+  margin: 50px auto;
+
+  h1 {
+    font-weight: 200;
+    margin-bottom: 16px;
+
+    span {
+      font-weight: 600;
+    }
+  }
+
+  p {
+    font-weight: 200;
+  }
+}
+
+/* ======
+  container
+  ====== */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1150px;
+  margin: 0 auto;
+
+  div[class^='card'] {
+    width: 340px;
+    height: 260px;
+    padding: 30px 30px 0;
+    margin: 15px;
+    background-color: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08), 0 6px 6px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+
+    h3 {
+      margin-bottom: 12px;
+    }
+
+    p {
+      font-weight: 200;
+      font-size: 14px;
+      line-height: 1.8;
+    }
+
+    img {
+      margin: 40px 10px 20px 200px;
+    }
+  }
+
+  .card__super {
+    border-top: 5px solid $cyan;
+  }
+
+  .card__team {
+    border-top: 5px solid $red;
+  }
+
+  .card__karma {
+    border-top: 5px solid $orange;
+  }
+
+  .card__calc {
+    border-top: 5px solid $blue;
+  }
+
+  .card__move {
+    transform: translateY(50%);
+  }
+}
+
+/* ======
+  footer 
+  ====== */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 340px) {
+  .container div[class^='card'] {
+    width: 300px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .container .card__move {
+    transform: none;
+  }
+}
